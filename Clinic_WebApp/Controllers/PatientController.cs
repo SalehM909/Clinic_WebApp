@@ -1,8 +1,8 @@
-using ClinicWebApp.Models;
-using ClinicWebApp.Services;
+using Clinic_WebApp.Models;
+using Clinic_WebApp.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ClinicWebApp.Controllers
+namespace Clinic_WebApp.Controllers
 {
     // PatientController class handles HTTP requests related to patient operations
     // It interacts with the IPatientService to manage patient data.

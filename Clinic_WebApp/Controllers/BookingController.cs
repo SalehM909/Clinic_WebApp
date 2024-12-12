@@ -1,8 +1,8 @@
-using ClinicWebApp.Models;
-using ClinicWebApp.Services;
+using Clinic_WebApp.Models;
+using Clinic_WebApp.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ClinicWebApp.Controllers
+namespace Clinic_WebApp.Controllers
 {
     // BookingController class handles HTTP requests related to booking appointments
     // It interacts with the IBookingService to manage booking operations.
