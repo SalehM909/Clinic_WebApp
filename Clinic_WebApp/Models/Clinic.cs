@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
-namespace ClinicWebApp.Models
+namespace Clinic_WebApp.Models
 {
     public class Clinic
     {

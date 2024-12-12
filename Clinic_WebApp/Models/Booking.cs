@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ClinicWebApp.Models
+namespace Clinic_WebApp.Models
 {
     // Specifies that the combination of BookingID, PatientID, and ClinicID together form a unique primary key for the booking.
     [PrimaryKey(nameof(BookingID), nameof(PatientID), nameof(ClinicID))]
