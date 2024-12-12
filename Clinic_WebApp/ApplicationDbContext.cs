@@ -33,6 +33,7 @@ namespace Clinic_WebApp
                 .WithMany(c => c.Bookings)
                 .HasForeignKey(b => b.ClinicID);
         }
+
     }
 
 }
