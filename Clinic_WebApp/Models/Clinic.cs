@@ -20,3 +20,4 @@ namespace ClinicWebApp.Models
         public ICollection<Booking> Bookings { get; set; }
     }
 }
+
